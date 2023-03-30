@@ -1,0 +1,19 @@
+.slide__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--item {
+    margin: 20px;
+    list-style-type: none;
+  }
+  &--img {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  &--des {
+    text-align: center;
+  }
+}
